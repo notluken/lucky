@@ -1,5 +1,5 @@
 <div align="center">
    <a href="#--------">
-      <img src="assets/New\ Project.png" alt="Home Preview">
+      <img src="assets/lucky-banner.png" alt="Home Preview">
    </a>
 </div>
