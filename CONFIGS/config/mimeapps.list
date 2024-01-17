@@ -1,0 +1,8 @@
+
+[Default Applications]
+application/x-extension-burp=install4j_10a3984-BurpSuiteCommunity.desktop
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop

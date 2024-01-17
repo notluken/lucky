@@ -1,0 +1,28 @@
+2024/01/17-18:58:15.311 c20 Reusing MANIFEST /home/notluken/.config/google-chrome/Profile 1/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/17-18:58:15.311 c20 Recovering log #6
+2024/01/17-18:58:15.330 c20 Reusing old log /home/notluken/.config/google-chrome/Profile 1/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000006.log 
+2024/01/17-18:58:24.570 c21 Level-0 table #12: started
+2024/01/17-18:58:24.628 c21 Level-0 table #12: 1520278 bytes OK
+2024/01/17-18:58:24.631 c21 Delete type=0 #6
+2024/01/17-18:58:24.670 c20 Compacting 1@1 + 2@2 files
+2024/01/17-18:58:24.773 c20 Generated table #13@1: 5325 keys, 2128392 bytes
+2024/01/17-18:58:24.848 c20 Generated table #14@1: 2388 keys, 2118744 bytes
+2024/01/17-18:58:24.858 c20 Generated table #15@1: 4584 keys, 105004 bytes
+2024/01/17-18:58:24.858 c20 Compacted 1@1 + 2@2 files => 4352140 bytes
+2024/01/17-18:58:24.859 c20 compacted to: files[ 0 0 3 0 0 0 0 ]
+2024/01/17-18:58:24.859 c20 Delete type=2 #8
+2024/01/17-18:58:24.859 c20 Delete type=2 #9
+2024/01/17-18:58:24.859 c20 Delete type=2 #12
+2024/01/17-18:58:24.957 c20 Level-0 table #17: started
+2024/01/17-18:58:24.994 c20 Level-0 table #17: 1678877 bytes OK
+2024/01/17-18:58:25.001 c20 Delete type=0 #11
+2024/01/17-18:58:25.013 c20 Compacting 1@1 + 3@2 files
+2024/01/17-18:58:25.106 c20 Generated table #18@1: 10538 keys, 2136423 bytes
+2024/01/17-18:58:25.201 c20 Generated table #19@1: 2147 keys, 2124434 bytes
+2024/01/17-18:58:25.313 c20 Generated table #20@1: 7927 keys, 1751849 bytes
+2024/01/17-18:58:25.313 c20 Compacted 1@1 + 3@2 files => 6012706 bytes
+2024/01/17-18:58:25.314 c20 compacted to: files[ 0 0 3 0 0 0 0 ]
+2024/01/17-18:58:25.314 c20 Delete type=2 #15
+2024/01/17-18:58:25.315 c20 Delete type=2 #13
+2024/01/17-18:58:25.315 c20 Delete type=2 #14
+2024/01/17-18:58:25.315 c20 Delete type=2 #17

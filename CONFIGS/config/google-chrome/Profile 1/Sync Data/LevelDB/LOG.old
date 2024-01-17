@@ -1,0 +1,15 @@
+2024/01/16-20:25:29.731 6bef Reusing MANIFEST /home/notluken/.config/google-chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2024/01/16-20:25:29.802 6bef Recovering log #24
+2024/01/16-20:25:29.814 6bef Reusing old log /home/notluken/.config/google-chrome/Profile 1/Sync Data/LevelDB/000024.log 
+2024/01/16-21:48:36.806 6be1 Level-0 table #28: started
+2024/01/16-21:48:36.809 6be1 Level-0 table #28: 92823 bytes OK
+2024/01/16-21:48:36.810 6be1 Delete type=0 #24
+2024/01/16-21:48:36.810 6be1 Compacting 4@0 + 1@1 files
+2024/01/16-21:48:36.816 6be1 Generated table #29@0: 50 keys, 7435 bytes
+2024/01/16-21:48:36.816 6be1 Compacted 4@0 + 1@1 files => 7435 bytes
+2024/01/16-21:48:36.817 6be1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/16-21:48:36.817 6be1 Delete type=2 #28
+2024/01/16-21:48:36.817 6be1 Delete type=2 #23
+2024/01/16-21:48:36.817 6be1 Delete type=2 #21
+2024/01/16-21:48:36.817 6be1 Delete type=2 #18
+2024/01/16-21:48:36.817 6be1 Delete type=2 #25

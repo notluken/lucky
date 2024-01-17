@@ -1,0 +1,131 @@
+@import url('../theme/light.css');
+@import url('../theme/dark.css');
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-size: 100%;
+  background-color: var(--primary-surface-color);
+  color: var(--primary-text-color);
+}
+
+body * {
+  box-sizing: border-box;
+  text-align: start;
+}
+
+svg.icon {
+  height: 1em;
+  width: 1em;
+  pointer-events: none;
+}
+
+a {
+  color: var(--primary-link-color);
+}
+
+a:hover {
+  color: var(--primary-link-hover-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container > fieldset {
+  margin: 15px;
+  padding: 5px 15px;
+  border: 1px solid var(--primary-border-color);
+  border-radius: 4px;
+}
+.container > fieldset legend {
+  padding: 0 5px;
+  font-size: 1.25em;
+}
+
+/* == Input styling == */
+
+.input-container {
+  min-height: 2em;
+}
+
+.input-container input,
+.input-container select,
+.input-container .switch,
+.input-container button,
+.input-container .button-group {
+  float: right;
+}
+.input-container select {
+  min-width: 120px;
+  background-color: var(--primary-surface-color);
+  border: 1px solid var(--primary-border-color);
+  border-radius: 4px;
+  color: var(--primary-text-color);
+  padding: 2px 5px;
+}
+
+.input-container button {
+  margin: 0 5px;
+  padding: 4px 8px;
+  background-color: var(--menu-surface-color);
+  border: 1px solid var(--primary-border-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: var(--menu-surface-hover-color);
+}
+
+.input-container button.danger {
+  background-color: var(--button-danger-surface-color);
+  border: 1px solid var(--button-danger-surface-color);
+  color: var(--primary-text-color);
+}
+
+.input-container button.danger:hover {
+  background-color: var(--primary-danger-color);
+  color: var(--button-primary-text-color);
+}
+
+.hint {
+  clear: both;
+  color: var(--secondary-text-color);
+  font-size: 0.8em;
+  padding: 1em;
+  padding-top: 2px;
+}
+
+.notice {
+  font-size: 0.9em;
+  padding: 8px;
+  margin: 5px 0;
+  margin-bottom: 15px;
+  background-color: var(--secondary-surface-color);
+  border-radius: 4px;
+}
+
+.notice.danger {
+  color: var(--secondary-text-color);
+  background-color: var(--notice-danger-surface-color);
+}
+
+.danger {
+  color: var(--secondary-danger-color);
+}
+.danger svg {
+  fill: var(--secondary-danger-color);
+  font-size: 1.2em;
+}
+
+.disclaimer {
+  font-size: 0.8em;
+  color: var(--secondary-text-color);
+  padding-top: 5px;
+}
+
+.hidden {
+  display: none;
+}

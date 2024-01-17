@@ -1,0 +1,42 @@
+2024/01/17-18:58:15.981 c32 Reusing MANIFEST /home/notluken/.config/google-chrome/Profile 1/Local Extension Settings/gppongmhjkpfnbhagpmjfkannfbllamg/MANIFEST-000001
+2024/01/17-18:58:15.981 c32 Recovering log #13
+2024/01/17-18:58:16.007 c32 Reusing old log /home/notluken/.config/google-chrome/Profile 1/Local Extension Settings/gppongmhjkpfnbhagpmjfkannfbllamg/000013.log 
+2024/01/17-18:58:27.265 c21 Level-0 table #17: started
+2024/01/17-18:58:27.277 c21 Level-0 table #17: 604747 bytes OK
+2024/01/17-18:58:27.282 c21 Delete type=0 #13
+2024/01/17-18:58:27.285 c32 Compacting 4@0 + 1@1 files
+2024/01/17-18:58:27.339 c32 Generated table #18@0: 1 keys, 160103 bytes
+2024/01/17-18:58:27.339 c32 Compacted 4@0 + 1@1 files => 160103 bytes
+2024/01/17-18:58:27.340 c32 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/17-18:58:27.341 c32 Delete type=2 #7
+2024/01/17-18:58:27.341 c32 Delete type=2 #10
+2024/01/17-18:58:27.341 c32 Delete type=2 #14
+2024/01/17-18:58:27.341 c32 Delete type=2 #17
+2024/01/17-18:58:27.341 c32 Delete type=2 #12
+2024/01/17-19:04:21.704 c21 Level-0 table #20: started
+2024/01/17-19:04:21.730 c21 Level-0 table #20: 652291 bytes OK
+2024/01/17-19:04:21.733 c21 Delete type=0 #16
+2024/01/17-19:18:18.167 c21 Level-0 table #22: started
+2024/01/17-19:18:18.176 c21 Level-0 table #22: 482389 bytes OK
+2024/01/17-19:18:18.177 c21 Delete type=0 #19
+2024/01/17-19:20:21.725 c21 Level-0 table #24: started
+2024/01/17-19:20:21.731 c21 Level-0 table #24: 481666 bytes OK
+2024/01/17-19:20:21.733 c21 Delete type=0 #21
+2024/01/17-19:25:57.185 c21 Level-0 table #26: started
+2024/01/17-19:25:57.193 c21 Level-0 table #26: 482748 bytes OK
+2024/01/17-19:25:57.197 c21 Delete type=0 #23
+2024/01/17-19:25:57.201 c21 Compacting 4@0 + 1@1 files
+2024/01/17-19:25:57.217 c21 Generated table #27@0: 1 keys, 13415 bytes
+2024/01/17-19:25:57.218 c21 Compacted 4@0 + 1@1 files => 13415 bytes
+2024/01/17-19:25:57.218 c21 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/17-19:25:57.218 c21 Delete type=2 #24
+2024/01/17-19:25:57.218 c21 Delete type=2 #26
+2024/01/17-19:25:57.218 c21 Delete type=2 #20
+2024/01/17-19:25:57.218 c21 Delete type=2 #18
+2024/01/17-19:25:57.218 c21 Delete type=2 #22
+2024/01/17-19:27:56.280 c21 Level-0 table #29: started
+2024/01/17-19:27:56.289 c21 Level-0 table #29: 456694 bytes OK
+2024/01/17-19:27:56.293 c21 Delete type=0 #25
+2024/01/17-19:31:34.682 c21 Level-0 table #31: started
+2024/01/17-19:31:34.690 c21 Level-0 table #31: 442305 bytes OK
+2024/01/17-19:31:34.692 c21 Delete type=0 #28

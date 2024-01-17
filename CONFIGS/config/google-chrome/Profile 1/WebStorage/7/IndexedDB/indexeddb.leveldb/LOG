@@ -1,0 +1,6 @@
+2024/01/15-23:50:41.616 525 Creating DB /home/notluken/.config/google-chrome/Profile 1/WebStorage/7/IndexedDB/indexeddb.leveldb since it was missing.
+2024/01/15-23:50:41.618 525 Reusing MANIFEST /home/notluken/.config/google-chrome/Profile 1/WebStorage/7/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/01/15-23:50:46.141 525 Level-0 table #5: started
+2024/01/15-23:50:46.142 525 Level-0 table #5: 480 bytes OK
+2024/01/15-23:50:46.143 525 Delete type=0 #3
+2024/01/15-23:50:46.144 525 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

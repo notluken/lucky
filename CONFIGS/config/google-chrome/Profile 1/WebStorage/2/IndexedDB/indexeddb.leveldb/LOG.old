@@ -1,0 +1,7 @@
+2024/01/17-19:04:20.067 c21 Reusing MANIFEST /home/notluken/.config/google-chrome/Profile 1/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/01/17-19:04:20.067 c21 Recovering log #3
+2024/01/17-19:04:20.068 c21 Reusing old log /home/notluken/.config/google-chrome/Profile 1/WebStorage/2/IndexedDB/indexeddb.leveldb/000003.log 
+2024/01/17-19:19:50.902 c21 Level-0 table #5: started
+2024/01/17-19:19:50.906 c21 Level-0 table #5: 136375 bytes OK
+2024/01/17-19:19:50.907 c21 Delete type=0 #3
+2024/01/17-19:19:50.908 c21 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,21 @@
+2024/01/16-20:25:30.774 4 Reusing MANIFEST /home/notluken/.config/google-chrome/Profile 1/Session Storage/MANIFEST-000001
+2024/01/16-20:25:30.776 4 Recovering log #9
+2024/01/16-20:25:30.782 4 Reusing old log /home/notluken/.config/google-chrome/Profile 1/Session Storage/000009.log 
+2024/01/16-20:44:08.936 4 Level-0 table #13: started
+2024/01/16-20:44:08.946 4 Level-0 table #13: 19748 bytes OK
+2024/01/16-20:44:08.948 4 Delete type=0 #9
+2024/01/16-21:05:12.215 6 Level-0 table #15: started
+2024/01/16-21:05:12.219 6 Level-0 table #15: 26387 bytes OK
+2024/01/16-21:05:12.221 6 Delete type=0 #12
+2024/01/16-21:54:32.414 4 Level-0 table #17: started
+2024/01/16-21:54:32.418 4 Level-0 table #17: 30169 bytes OK
+2024/01/16-21:54:32.420 4 Delete type=0 #14
+2024/01/16-21:54:32.422 4 Compacting 4@0 + 1@1 files
+2024/01/16-21:54:32.427 4 Generated table #18@0: 628 keys, 40189 bytes
+2024/01/16-21:54:32.428 4 Compacted 4@0 + 1@1 files => 40189 bytes
+2024/01/16-21:54:32.428 4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/16-21:54:32.429 4 Delete type=2 #8
+2024/01/16-21:54:32.429 4 Delete type=2 #15
+2024/01/16-21:54:32.429 4 Delete type=2 #13
+2024/01/16-21:54:32.429 4 Delete type=2 #10
+2024/01/16-21:54:32.429 4 Delete type=2 #17

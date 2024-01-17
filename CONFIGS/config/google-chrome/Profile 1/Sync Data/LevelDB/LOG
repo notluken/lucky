@@ -1,0 +1,6 @@
+2024/01/17-18:58:12.861 c32 Reusing MANIFEST /home/notluken/.config/google-chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2024/01/17-18:58:12.921 c32 Recovering log #27
+2024/01/17-18:58:12.927 c32 Reusing old log /home/notluken/.config/google-chrome/Profile 1/Sync Data/LevelDB/000027.log 
+2024/01/17-19:25:55.738 c21 Level-0 table #32: started
+2024/01/17-19:25:55.741 c21 Level-0 table #32: 91706 bytes OK
+2024/01/17-19:25:55.742 c21 Delete type=0 #27

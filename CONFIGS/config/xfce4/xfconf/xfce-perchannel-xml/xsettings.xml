@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xsettings" version="1.0">
+  <property name="Net" type="empty">
+    <property name="ThemeName" type="string" value="Kali-Purple-Dark"/>
+    <property name="IconThemeName" type="empty"/>
+  </property>
+  <property name="Xft" type="empty">
+    <property name="HintStyle" type="empty"/>
+    <property name="Hinting" type="empty"/>
+    <property name="RGBA" type="empty"/>
+    <property name="Antialias" type="empty"/>
+  </property>
+  <property name="Gtk" type="empty">
+    <property name="CursorThemeName" type="empty"/>
+    <property name="CursorThemeSize" type="empty"/>
+    <property name="FontName" type="empty"/>
+    <property name="MonospaceFontName" type="empty"/>
+    <property name="ButtonImages" type="empty"/>
+    <property name="MenuImages" type="empty"/>
+    <property name="DecorationLayout" type="string" value="menu:minimize,maximize,close"/>
+  </property>
+  <property name="Xfce" type="empty">
+    <property name="SyncThemes" type="empty"/>
+  </property>
+</channel>

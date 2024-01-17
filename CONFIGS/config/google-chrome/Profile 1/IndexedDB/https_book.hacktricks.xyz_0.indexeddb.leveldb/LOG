@@ -1,0 +1,7 @@
+2024/01/16-02:34:30.608 684 Reusing MANIFEST /home/notluken/.config/google-chrome/Profile 1/IndexedDB/https_book.hacktricks.xyz_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/16-02:34:30.609 684 Recovering log #6
+2024/01/16-02:34:30.609 684 Reusing old log /home/notluken/.config/google-chrome/Profile 1/IndexedDB/https_book.hacktricks.xyz_0.indexeddb.leveldb/000006.log 
+2024/01/16-02:34:33.926 684 Level-0 table #11: started
+2024/01/16-02:34:33.927 684 Level-0 table #11: 817 bytes OK
+2024/01/16-02:34:33.927 684 Delete type=0 #6
+2024/01/16-02:34:33.928 684 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

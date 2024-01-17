@@ -1,0 +1,19 @@
+2024/01/16-02:33:57.733 684 Reusing MANIFEST /home/notluken/.config/google-chrome/Profile 1/IndexedDB/https_book.hacktricks.xyz_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/16-02:33:57.734 684 Recovering log #3
+2024/01/16-02:33:57.736 684 Reusing old log /home/notluken/.config/google-chrome/Profile 1/IndexedDB/https_book.hacktricks.xyz_0.indexeddb.leveldb/000003.log 
+2024/01/16-02:34:05.003 684 Level-0 table #5: started
+2024/01/16-02:34:05.005 684 Level-0 table #5: 13477 bytes OK
+2024/01/16-02:34:05.005 684 Delete type=0 #3
+2024/01/16-02:34:05.006 684 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/01/16-02:34:30.359 685 Level-0 table #7: started
+2024/01/16-02:34:30.361 685 Level-0 table #7: 5849 bytes OK
+2024/01/16-02:34:30.363 685 Delete type=0 #4
+2024/01/16-02:34:30.363 685 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/01/16-02:34:30.364 685 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x01\x05\x00_\x00_\x00s\x00a\x00k' @ 393 : 1
+2024/01/16-02:34:30.364 685 Compacting 1@1 + 1@2 files
+2024/01/16-02:34:30.371 685 Generated table #8@1: 100 keys, 8598 bytes
+2024/01/16-02:34:30.371 685 Compacted 1@1 + 1@2 files => 8598 bytes
+2024/01/16-02:34:30.374 685 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/01/16-02:34:30.375 685 Delete type=2 #7
+2024/01/16-02:34:30.377 685 Delete type=2 #5
+2024/01/16-02:34:30.378 690 Manual compaction at level-1 from '\x00\x04\x01\x02\x01\x05\x00_\x00_\x00s\x00a\x00k' @ 393 : 1 .. (end); will stop at (end)

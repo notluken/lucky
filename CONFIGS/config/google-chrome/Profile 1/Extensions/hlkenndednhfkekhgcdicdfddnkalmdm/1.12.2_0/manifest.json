@@ -1,0 +1,42 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icons/cookie-16-filled.png",
+         "19": "icons/cookie-19-filled.png",
+         "32": "icons/cookie-32-filled.png",
+         "48": "icons/cookie-48-filled.png"
+      },
+      "default_popup": "interface/popup/cookie-list.html",
+      "default_title": "Cookie-Editor"
+   },
+   "author": "Moustachauve",
+   "background": {
+      "service_worker": "cookie-editor.js",
+      "type": "module"
+   },
+   "description": "Simple yet powerful Cookie Editor that allow you to quickly create, edit and delete cookies without leaving your tab.",
+   "devtools_page": "interface/devtools/devtool.html",
+   "icons": {
+      "128": "icons/cookie-128-filled.png",
+      "16": "icons/cookie-16-filled.png",
+      "19": "icons/cookie-19-filled.png",
+      "32": "icons/cookie-32-filled.png",
+      "48": "icons/cookie-48-filled.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjBDPiriJD6/qHZGmrWkIuRkdPi5QdoQg3dtaOhmp5tZQmPbYYT65EjkTjDvdTrZRZuirvHA4cwgR17L9t/LBkEsuE1VUBpr08Y6hbueIuxR8yiowpP11n5WzubxXzNV1ZoRhRKwsM77PImFdEFffEaPmDDEMvtyP42u1Z/bHU9mrc20iHzLv2YOJDyGDm5bOt78V4hD3l1aablhb4kDAyE2u1oQ98FVPldsd7A+WrJYIeyuzVOm94Wx811F8/pKRe18JUSY4+81msdgTNOHoGUaAhhuw/umdNrg3YRH4nkrcGV2v401q0Mj8kDf49atMITPn+Wi1nn5QK/bf3ThMKQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "102",
+   "name": "Cookie-Editor",
+   "offline_enabled": true,
+   "optional_host_permissions": [ "\u003Call_urls>" ],
+   "options_ui": {
+      "page": "interface/options/options.html"
+   },
+   "permissions": [ "cookies", "tabs", "storage", "sidePanel" ],
+   "side_panel": {
+      "default_path": "interface/sidepanel/cookie-list.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.12.2"
+}

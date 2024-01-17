@@ -1,0 +1,8 @@
+<qterminal>
+  <group name="Change Directory">
+    <command name="Home" value="cd $HOME"/>
+  </group>
+  <group name="File Manager">
+    <command name="Open here" value="xdg-open $(pwd)"/>
+  </group>
+</qterminal>
