@@ -14,41 +14,49 @@ fi
 
 sleep 2
 echo -e "\tLucky (運)- Hacker environment automation script."
-echo -e "\t\tnotluken"
+echo -e "\t--------------------notluken---------------------"
 sleep 3
 #echo -e "\nInstallation will begin soon..\n"
 sleep 4
 
+USER=$(whoami)
 RPATH=`pwd`
 
 # update and upgrade all
+echo -e "\t[!] Doing an apt full-upgrade"
  sudo apt update && sudo apt -y full-upgrade
 
 # install packages 
+echo -e "\t[+] Installing Packages"
 sudo apt install -y git vim feh scrot scrub zsh rofi xclip xsel locate neofetch wmname acpi bspwm sxhkd \
 imagemagick ranger kitty tmux python3-pip font-manager lsd bpython open-vm-tools-desktop open-vm-tools # snapd
 
 # install environment dependencies
+echo -e "\t[+] Installing Environment dependencies"
 sudo apt install -y build-essential libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev \
 libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev # (xcb removed)
 
 # install polybar requirements
+echo -e "\t[+] Installing Polybar requirements"
 sudo apt install -y cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev \
 libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev \
 libxcb-icccm4-dev libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev libpulse-dev libjsoncpp-dev \
 libmpdclient-dev libuv1-dev libnl-genl-3-dev
 
 # Install picom dependencies
+echo -e "\t[+] Installing Picom dependencies"
 sudo apt install -y meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev \
 libxcb-render-util0-dev libxcb-render0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev \
 libxcb-xinerama0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libevdev-dev \
 uthash-dev libev-dev libx11-xcb-dev libxcb-glx0-dev libpcre3 libpcre3-dev
 
 # install fonts
+echo -e "[+] Installing Fonts"
 mkdir /tmp/fonts
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip -O /tmp/fonts/Hack.zip
 unzip /tmp/fonts/Hack.zip -d /tmp/fonts
 font-manager -i /tmp/fonts/*.ttf
+cp -r $RPATH/polybar/fonts/* /usr/share/fonts/truetype/
 
 # install ohmyzsh
 rm -rf ~/.oh-my-zsh
@@ -58,6 +66,7 @@ yes | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/mast
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 rm -f ~/.p10k.zsh
 cp -v $RPATH/CONFIGS/p10k.zsh ~/.p10k.zsh
+cp -v $RPATH/CONFIGS/p10k.zsh /root/.p10k.zsh
 
 # install zsh plugins
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -65,6 +74,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 rm -f ~/.zshrc
 # install zsh-autocomplete?
 cp -v $RPATH/CONFIGS/zshrc ~/.zshrc
+cp -v $RPATH/CONFIGS/zshrc /root/.zshrc
 
 # install fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
@@ -75,6 +85,7 @@ rm -rf ~/.tmux
 git clone https://github.com/gpakosz/.tmux.git ~/.tmux
 ln -s -f ~/.tmux/.tmux.conf ~/
 cp -v $RPATH/CONFIGS/tmux.conf.local ~/.tmux.conf.local
+cp -v $RPATH/CONFIGS/tmux.conf.local /root/.tmux.conf.local
 
 # nvim
 wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz -O /tmp/nvim-linux64.tar.gz
@@ -106,7 +117,7 @@ cmake ..
 make -j$(nproc)
 sudo make install
 
-# install polybar themesi
+# install polybar themes
 mv ~/.config/polybar/ ~/.config/polybar_bak 
 mkdir ~/.config/polybar/
 cp -rv $RPATH/polybar/* ~/.config/polybar/
@@ -130,7 +141,7 @@ sudo timedatectl set-timezone "America/Argentina/Tucuman"
   
 #done
 # copy all config files\
-cp -rv $RPATH/CONFIGS/local/* ~/.local/
+#cp -rv $RPATH/CONFIGS/local/* ~/.local/
 cp -rv $RPATH/CONFIGS/config/* ~/.config/
 
 # copy scripts
@@ -138,7 +149,7 @@ cp -rv $RPATH/CONFIGS/config/* ~/.config/
 #sudo ln -s ~/.config/polybar/bin/target_to_hack.sh /usr/bin/target
 #sudo ln -s ~/.config/polybar//screenshot.sh /usr/bin/screenshot
 
-# copy wallpapers
+# copy wallpaper
 mkdir ~/Wallpapers/
 cp -rv $RPATH/WALLPAPERS/* ~/Wallpapers/
 
